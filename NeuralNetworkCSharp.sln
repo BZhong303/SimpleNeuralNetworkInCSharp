@@ -1,31 +1,48 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetworkCSharp", "NeuralNetworkCSharp\NeuralNetworkCSharp.csproj", "{531730A2-C3D9-4C57-93E4-5F0E9A948D20}"
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetworkCSharp", "NeuralNetworkCSharp\NeuralNetworkCSharp.csproj", "{61A25E1F-BA80-4894-B840-09BBFACB3FC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetworkCSharpTests", "NeuralNetworkCSharpTests\NeuralNetworkCSharpTests.csproj", "{64285BC5-0B1F-4DFE-91B3-D596D33558E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetworkCSharpTests", "NeuralNetworkCSharpTests\NeuralNetworkCSharpTests.csproj", "{F76806FA-1A4D-4505-A99A-B428C39FD7B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{531730A2-C3D9-4C57-93E4-5F0E9A948D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{531730A2-C3D9-4C57-93E4-5F0E9A948D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{531730A2-C3D9-4C57-93E4-5F0E9A948D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{531730A2-C3D9-4C57-93E4-5F0E9A948D20}.Release|Any CPU.Build.0 = Release|Any CPU
-		{64285BC5-0B1F-4DFE-91B3-D596D33558E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{64285BC5-0B1F-4DFE-91B3-D596D33558E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{64285BC5-0B1F-4DFE-91B3-D596D33558E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{64285BC5-0B1F-4DFE-91B3-D596D33558E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A0D21521-5ECF-47CF-8666-0AEEE09ACAAB}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61A25E1F-BA80-4894-B840-09BBFACB3FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A25E1F-BA80-4894-B840-09BBFACB3FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A25E1F-BA80-4894-B840-09BBFACB3FC8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{61A25E1F-BA80-4894-B840-09BBFACB3FC8}.Debug|x64.Build.0 = Debug|Any CPU
+		{61A25E1F-BA80-4894-B840-09BBFACB3FC8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{61A25E1F-BA80-4894-B840-09BBFACB3FC8}.Debug|x86.Build.0 = Debug|Any CPU
+		{61A25E1F-BA80-4894-B840-09BBFACB3FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A25E1F-BA80-4894-B840-09BBFACB3FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A25E1F-BA80-4894-B840-09BBFACB3FC8}.Release|x64.ActiveCfg = Release|Any CPU
+		{61A25E1F-BA80-4894-B840-09BBFACB3FC8}.Release|x64.Build.0 = Release|Any CPU
+		{61A25E1F-BA80-4894-B840-09BBFACB3FC8}.Release|x86.ActiveCfg = Release|Any CPU
+		{61A25E1F-BA80-4894-B840-09BBFACB3FC8}.Release|x86.Build.0 = Release|Any CPU
+		{F76806FA-1A4D-4505-A99A-B428C39FD7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76806FA-1A4D-4505-A99A-B428C39FD7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76806FA-1A4D-4505-A99A-B428C39FD7B8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F76806FA-1A4D-4505-A99A-B428C39FD7B8}.Debug|x64.Build.0 = Debug|Any CPU
+		{F76806FA-1A4D-4505-A99A-B428C39FD7B8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F76806FA-1A4D-4505-A99A-B428C39FD7B8}.Debug|x86.Build.0 = Debug|Any CPU
+		{F76806FA-1A4D-4505-A99A-B428C39FD7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76806FA-1A4D-4505-A99A-B428C39FD7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F76806FA-1A4D-4505-A99A-B428C39FD7B8}.Release|x64.ActiveCfg = Release|Any CPU
+		{F76806FA-1A4D-4505-A99A-B428C39FD7B8}.Release|x64.Build.0 = Release|Any CPU
+		{F76806FA-1A4D-4505-A99A-B428C39FD7B8}.Release|x86.ActiveCfg = Release|Any CPU
+		{F76806FA-1A4D-4505-A99A-B428C39FD7B8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
